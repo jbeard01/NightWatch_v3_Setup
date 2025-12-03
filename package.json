@@ -1,0 +1,33 @@
+{
+  "name": "Nightwatch_Training_v3",
+  "version": "1.0.0",
+  "description": "regression tests",
+  "main": "index.js",
+  "scripts": {
+    "TESTING_SCRIPTS_FOR CI_AND_LOCAL_RUNS": "echo 'These test scripts run the various tests in their buckets mainly for CI and local smoke and regression testing'",
+    "test": "nightwatch --tag test --skiptags null --env chrome2 --reporter=junit --reporter ./html-reporters/ostro-html.js --retries 2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@nightwatch/browserstack": "^3.4.1",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "chance": "latest",
+    "chromedriver": "latest",
+    "dotenv": "^16.3.1",
+    "eslint": "^9.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.14.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "nightwatch": "latest",
+    "nightwatch-axe-verbose": "^2.3.4",
+    "superagent": "^10.2.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "dropin-request": "^1.1.1",
+    "lodash.pick": "^4.4.0",
+    "nock": "^13.2.9"
+  }
+}
