@@ -3,7 +3,7 @@ const testData = require('../elements/testData'); // reference to hardcoded elem
 
 describe('Tailor UI Refresh: Accessibility Tests', function () {
    const self = this;
-   this.tags = ['test']; // tags to target for run script
+   this.tags = ['null']; // tags to target for run script
    before(function (browser) {
       // any setup code etc
    });
