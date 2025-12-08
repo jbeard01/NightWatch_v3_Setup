@@ -39,7 +39,8 @@ describe('Tailor UI Refresh: Accessibility Tests', function () {
 
    it("TESTING!!! <ENTER TEST NAME HERE>", function (browser) {
       //Enter your script here
-
+      browser.url("www.google.com");
+      
       browser.end();
    });
    
